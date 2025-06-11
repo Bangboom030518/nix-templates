@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  min-height: 100%;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  flex-grow: 1;
+}
