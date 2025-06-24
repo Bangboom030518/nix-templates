@@ -32,6 +32,14 @@
             - Run `cargo run`
           '';
         };
+
+        base = {
+          path = ./base;
+          welcomeText = ''
+            # Getting started
+            - Run `nix develop`
+          '';
+        };
       };
     };
 }
