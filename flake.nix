@@ -40,6 +40,15 @@
             - Run `nix develop`
           '';
         };
+
+        haskell = {
+          path = ./haskell;
+          welcomeText = ''
+            # Getting started
+            - Run `nix develop`
+            - Run `cabal run`
+          '';
+        };
       };
     };
 }
