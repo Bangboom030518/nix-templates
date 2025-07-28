@@ -7,6 +7,7 @@
       templates = {
         zig = {
           path = ./zig;
+          description = "a basic zig template";
           welcomeText = ''
             # Getting started
             - Run `nix develop`
@@ -17,6 +18,7 @@
 
         html = {
           path = ./html;
+          description = "a basic html template";
           welcomeText = ''
             # Getting started
             - Run `npm i`
@@ -26,6 +28,7 @@
 
         rust = {
           path = ./rust;
+          description = "a basic rust template";
           welcomeText = ''
             # Getting started
             - Run `nix develop`
@@ -35,6 +38,7 @@
 
         base = {
           path = ./base;
+          description = "a blank template";
           welcomeText = ''
             # Getting started
             - Run `nix develop`
@@ -43,6 +47,7 @@
 
         haskell = {
           path = ./haskell;
+          description = "a basic haskell template";
           welcomeText = ''
             # Getting started
             - Run `nix develop`
