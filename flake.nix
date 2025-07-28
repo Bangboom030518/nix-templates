@@ -5,6 +5,15 @@
     { ... }:
     {
       templates = {
+        default = {
+          path = ./base;
+          description = "a blank template";
+          welcomeText = ''
+            # Getting started
+            - Run `nix develop`
+          '';
+        };
+
         zig = {
           path = ./zig;
           description = "a basic zig template";
@@ -33,15 +42,6 @@
             # Getting started
             - Run `nix develop`
             - Run `cargo run`
-          '';
-        };
-
-        base = {
-          path = ./base;
-          description = "a blank template";
-          welcomeText = ''
-            # Getting started
-            - Run `nix develop`
           '';
         };
 
