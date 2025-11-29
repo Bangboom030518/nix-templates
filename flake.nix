@@ -54,6 +54,16 @@
             - Run `cabal run`
           '';
         };
+
+        python = {
+          path = ./python;
+          description = "a basic python template";
+          welcomeText = ''
+            # Getting started
+            - Run `nix develop`
+            - Run `python main.py`
+          '';
+        };
       };
     };
 }
