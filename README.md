@@ -1,4 +1,5 @@
-== To use these templates
+## To use these templates
+
 For nixos, make sure the following line is present in your systemwide `flake.nix`.
 
 ```nix
@@ -14,7 +15,7 @@ For nixos, make sure the following line is present in your systemwide `flake.nix
 
 For other operating systems, be sad.
 
-== To add a new template
+## To add a new template
 
 1. Copy the `./default` directory and make any required adjustments.
 2. Update `flake.nix` as follows:
