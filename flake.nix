@@ -64,6 +64,15 @@
             - Run `python main.py`
           '';
         };
+
+        typst = {
+          path = ./typst;
+          description = "a typst essay template";
+          welcomeText = ''
+            # Getting started
+            - Run `make launch`
+          '';
+        };
       };
     };
 }
