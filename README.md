@@ -13,6 +13,8 @@ For nixos, make sure the following line is present in your systemwide `flake.nix
 }
 ```
 
+To create a flake with a template, use either `nix flake new <directory-name> -t templates#<template-name>` or `nix flake init -t templates#<template-name>`.
+
 For other operating systems, be sad.
 
 ## To add a new template

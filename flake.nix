@@ -5,7 +5,7 @@
     { ... }:
     {
       templates = {
-        default = {
+        base = {
           path = ./base;
           description = "a blank template";
           welcomeText = ''
